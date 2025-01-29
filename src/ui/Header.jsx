@@ -62,6 +62,7 @@ const StyledNavLinkMobile = styled.ul`
     flex-direction: column;
     padding-left: 4rem;
     font-size: 12px;
+    padding-top: 2rem;
   }
 `;
 

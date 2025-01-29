@@ -2,12 +2,12 @@ import styled from "styled-components";
 
 const OverlayContainer = styled.div`
   position: fixed;
-  top: 15%;
+  top: 0;
   left: 0;
   height: 100vh;
   width: 100%;
   background-color: var(--color--bg);
-  z-index: 999;
+  z-index: -1;
   display: flex;
   justify-content: flex-start;
   transform: translateX(-100%);
