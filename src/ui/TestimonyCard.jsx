@@ -4,7 +4,7 @@ const StyledCard = styled.div`
   background-image: url("src/assets/testimony_bg.png");
   padding: 2rem 2rem 4rem;
   width: 380px;
-  height: 240px;
+  height: auto;
   border-radius: 1rem;
   border: 1px solid rgb(217, 221, 216);
 `;
