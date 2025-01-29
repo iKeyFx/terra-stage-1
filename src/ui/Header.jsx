@@ -10,7 +10,7 @@ const StyledHeader = styled.header`
   top: 0;
   width: 100%;
   background-color: var(--color--bg);
-  z-index: 2;
+  z-index: 999;
 `;
 const StyledNav = styled.nav`
   display: flex;

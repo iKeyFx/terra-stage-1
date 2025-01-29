@@ -1,9 +1,11 @@
 import styled from "styled-components";
+import SignUpButton from "../ui/SignUpButton";
+// import dashboardMockUp from "../assets/dashboard-mockup.png";
+
 import { StyledH2, StyledSpan } from "./SectionTwo";
 import { MdKeyboardArrowDown, MdKeyboardArrowRight } from "react-icons/md";
 import { useState } from "react";
 import { FaCircle } from "react-icons/fa";
-import SignUpButton from "../ui/SignUpButton";
 
 const StyledDashSection = styled.section`
   display: grid;
@@ -112,7 +114,7 @@ function DashboardSection() {
   return (
     <StyledDashSection>
       <div>
-        <img src="/src/assets/dashboard-mockup.png" alt="dashboard mock" />
+        <img src="/assets/dashboard-mockup.png" alt="dashboard mock" />
       </div>
 
       <StyledDiv>

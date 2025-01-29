@@ -32,6 +32,7 @@ const StyledIcon = styled.div`
   display: flex;
   justify-content: center;
   border-radius: 1rem;
+  z-index: 2;
 `;
 
 export const StyledH2 = styled.h2`
@@ -56,7 +57,7 @@ export const StyledP = styled.div`
 const BenefitCard = styled.div`
   display: flex;
   flex-direction: column;
-  background-image: url(/src/assets/card-bg-lines.svg);
+  background-image: url(/assets/card-bg-lines.svg);
   border-radius: 1.5rem;
   background-size: contain;
   background-position: right-top;
