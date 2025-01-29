@@ -26,7 +26,7 @@ const StyledSectionTwo = styled.section`
 
 const StyledIcon = styled.div`
   background-color: rgb(244 245 247);
-  width: 5%;
+  width: 10%;
   /* height: 30px; */
   padding: 1rem;
   display: flex;
