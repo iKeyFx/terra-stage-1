@@ -27,7 +27,7 @@ const StyledSidebar = styled.aside`
   justify-content: space-between;
 
   @media (max-width: 1020px) {
-    width: 30%;
+    width: 100%;
     justify-content: initial;
   }
 `;

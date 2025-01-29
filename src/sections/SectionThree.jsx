@@ -44,6 +44,7 @@ const CardContainer = styled.div`
   display: flex;
   gap: 1rem;
   overflow: hidden;
+  justify-content: center;
 
   @media (max-width: 1020px) {
     flex-direction: column;
