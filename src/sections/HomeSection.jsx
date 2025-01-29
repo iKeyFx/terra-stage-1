@@ -131,6 +131,7 @@ const Icon2 = styled(MdPlayCircle)`
 `;
 
 const StyledImageMobile = styled.div`
+  display: none;
   @media (max-width: 1020px) {
     display: flex;
     justify-content: center;
@@ -171,9 +172,9 @@ function HomeSection() {
           </StyledP>
           <SignUpButtonMobile>Sign up for Free</SignUpButtonMobile>
           <StyledImage>
-            <Img src="/src/assets/jobberman.svg" alt="jobberman logo" />
-            <Img src="/src/assets/raven-bank.svg" alt="raven-bank logo" />
-            <Img src="/src/assets/thire.svg" alt="thire logo" />
+            <Img src="src/assets/jobberman.svg" alt="jobberman logo" />
+            <Img src="src/assets/raven-bank.svg" alt="raven-bank logo" />
+            <Img src="src/assets/thire.svg" alt="thire logo" />
           </StyledImage>
         </StyledDiv1>
         <StyledDiv2>
@@ -191,9 +192,9 @@ function HomeSection() {
           </StyledPlay>
 
           <StyledImageMobile>
-            <Img src="/src/assets/jobberman.svg" alt="jobberman logo" />
-            <Img src="/src/assets/raven-bank.svg" alt="raven-bank logo" />
-            <Img src="/src/assets/thire.svg" alt="thire logo" />
+            <Img src="src/assets/jobberman.svg" alt="jobberman logo" />
+            <Img src="src/assets/raven-bank.svg" alt="raven-bank logo" />
+            <Img src="src/assets/thire.svg" alt="thire logo" />
           </StyledImageMobile>
         </StyledDiv2>
       </StyledSec>
