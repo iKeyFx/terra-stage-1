@@ -108,7 +108,7 @@ const StyledGrid2 = styled.section`
 const StyledGrid2H3 = styled.h3`
   font-weight: 600;
 
-  @media (max-width: 740px;) {
+  @media (max-width: 740px) {
     margin: 19px 0;
   }
 `;
