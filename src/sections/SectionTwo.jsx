@@ -25,13 +25,22 @@ const StyledSectionTwo = styled.section`
 `;
 
 const StyledIcon = styled.div`
-  background-color: rgb(244 245 247);
+  background-color: rgb(244, 245, 247);
   width: 10%;
   /* height: 20px; */
-  padding: 1rem;
+  /* padding: 1rem;
   display: flex;
   justify-content: center;
+  border-radius: 1rem; */
+
+  width: 3rem; /* Set a fixed width */
+  height: 3rem; /* Set a fixed height */
+  padding: 0.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 1rem;
+  font-size: 1.5rem;
 `;
 
 export const StyledH2 = styled.h2`
@@ -119,7 +128,7 @@ function SectionTwo() {
       <GridMobile>
         <BenefitCard>
           <StyledIcon>
-            <AiOutlineSafetyCertificate />
+            <AiOutlineSafetyCertificate size={30} />
           </StyledIcon>
           <StyledH4>Earn a certificate</StyledH4>
           <StyledP>
@@ -129,7 +138,7 @@ function SectionTwo() {
         </BenefitCard>
         <BenefitCard>
           <StyledIcon>
-            <LuBookOpenText />
+            <LuBookOpenText size={30} />
           </StyledIcon>
           <StyledH4>Learn from the very best</StyledH4>
           <StyledP>
@@ -143,7 +152,7 @@ function SectionTwo() {
       <GridMobile>
         <BenefitCard>
           <StyledIcon>
-            <LuBrainCircuit />
+            <LuBrainCircuit size={30} />
           </StyledIcon>
           <StyledH4>Get hands-on experience</StyledH4>
           <StyledP>
@@ -154,7 +163,7 @@ function SectionTwo() {
         </BenefitCard>
         <BenefitCard>
           <StyledIcon>
-            <GiSpeedBoat />
+            <GiSpeedBoat size={30} />
           </StyledIcon>
           <StyledH4>Be a part of a fast-growing startup</StyledH4>
           <StyledP>
