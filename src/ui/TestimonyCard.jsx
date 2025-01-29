@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const StyledCard = styled.div`
   background-image: url("src/assets/testimony_bg.png");
-  padding: 2rem 2rem 1rem;
+  padding: 2rem 2rem 4rem;
   width: 380px;
   height: 240px;
   border-radius: 1rem;

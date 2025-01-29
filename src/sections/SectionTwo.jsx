@@ -27,20 +27,16 @@ const StyledSectionTwo = styled.section`
 const StyledIcon = styled.div`
   background-color: rgb(244, 245, 247);
   width: 10%;
-  /* height: 20px; */
-  /* padding: 1rem;
-  display: flex;
-  justify-content: center;
-  border-radius: 1rem; */
 
-  width: 3rem; /* Set a fixed width */
-  height: 3rem; /* Set a fixed height */
+  width: 3rem;
+  height: 3rem;
   padding: 0.75rem;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 1rem;
   font-size: 1.5rem;
+  margin-bottom: 0.5rem;
 `;
 
 export const StyledH2 = styled.h2`
