@@ -45,33 +45,21 @@ function Slider() {
       >
         <SwiperSlide>
           <SlideCon>
-            <img
-              src="src/assets/slider_image/entry-level.svg"
-              alt="Entry level"
-            />
-            <img src="src/assets/slider_image/reina.svg" alt="Reina" />
-            <img src="src/assets/slider_image/spurt.svg" alt="Spurt" />
-            <img
-              src="src/assets/slider_image/trinipicks.svg"
-              alt="Trinipicks"
-            />
-            <img src="src/assets/slider_image/keytrust.svg" alt="Keytrust" />
+            <img src="/assets/slider_image/entry-level.svg" alt="Entry level" />
+            <img src="/assets/slider_image/reina.svg" alt="Reina" />
+            <img src="/assets/slider_image/spurt.svg" alt="Spurt" />
+            <img src="/assets/slider_image/trinipicks.svg" alt="Trinipicks" />
+            <img src="/assets/slider_image/keytrust.svg" alt="Keytrust" />
           </SlideCon>
         </SwiperSlide>
 
         <SwiperSlide>
           <SlideCon>
-            <img
-              src="src/assets/slider_image/entry-level.svg"
-              alt="Entry level"
-            />
-            <img src="src/assets/slider_image/reina.svg" alt="Reina" />
-            <img src="src/assets/slider_image/spurt.svg" alt="Spurt" />
-            <img
-              src="src/assets/slider_image/trinipicks.svg"
-              alt="Trinipicks"
-            />
-            <img src="src/assets/slider_image/keytrust.svg" alt="Keytrust" />
+            <img src="/assets/slider_image/entry-level.svg" alt="Entry level" />
+            <img src="/assets/slider_image/reina.svg" alt="Reina" />
+            <img src="/assets/slider_image/spurt.svg" alt="Spurt" />
+            <img src="/assets/slider_image/trinipicks.svg" alt="Trinipicks" />
+            <img src="/assets/slider_image/keytrust.svg" alt="Keytrust" />
           </SlideCon>
         </SwiperSlide>
       </MySwiper>

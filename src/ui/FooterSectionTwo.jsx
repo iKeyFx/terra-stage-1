@@ -113,7 +113,7 @@ function FooterSectionTwo() {
       <section>
         <div>
           <StyledLogo>
-            <img src="src/assets/terra_logo.svg" alt="terra logo" />
+            <img src="/assets/terra_logo.svg" alt="terra logo" />
             <StyledPLogo>Building Africa’s workforce</StyledPLogo>
           </StyledLogo>
           <StyledPAchieve>
