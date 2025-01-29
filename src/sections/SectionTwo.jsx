@@ -118,9 +118,9 @@ function SectionTwo() {
       </div>
       <GridMobile>
         <BenefitCard>
-          <StyledIcon>
-            <AiOutlineSafetyCertificate />
-          </StyledIcon>
+          {/* <StyledIcon> */}
+          <AiOutlineSafetyCertificate />
+          {/* </StyledIcon> */}
           <StyledH4>Earn a certificate</StyledH4>
           <StyledP>
             All Terra Learning finalists will be awarded a paid certificate of
