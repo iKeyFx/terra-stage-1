@@ -1,8 +1,12 @@
 import styled from "styled-components";
 import Button from "../ui/Button";
+
 import { FaCircle } from "react-icons/fa";
 import { MdPlayCircle } from "react-icons/md";
-import SignUpButton from "../ui/SignUpButton";
+
+import jobbermanLogo from "../assets/jobberman.svg";
+import ravenBankLogo from "../assets/raven-bank.svg";
+import thireLogo from "../assets/thire.svg";
 
 const StyledSection = styled.section`
   background-color: var(--color--bg);
@@ -172,9 +176,9 @@ function HomeSection() {
           </StyledP>
           <SignUpButtonMobile>Sign up for Free</SignUpButtonMobile>
           <StyledImage>
-            <Img src="src/assets/jobberman.svg" alt="jobberman logo" />
-            <Img src="src/assets/raven-bank.svg" alt="raven-bank logo" />
-            <Img src="src/assets/thire.svg" alt="thire logo" />
+            <Img src={jobbermanLogo} alt="jobberman logo" />
+            <Img src={ravenBankLogo} alt="raven-bank logo" />
+            <Img src={thireLogo} alt="thire logo" />
           </StyledImage>
         </StyledDiv1>
         <StyledDiv2>
