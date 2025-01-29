@@ -183,7 +183,7 @@ function HomeSection() {
         </StyledDiv1>
         <StyledDiv2>
           <div>
-            {/* <img src="/src/assets/hero-image.png" alt="hero image" /> */}
+            <img src="/src/assets/hero-image.png" alt="hero image" />
           </div>
           <p>
             <Icon />
