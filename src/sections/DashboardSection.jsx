@@ -101,6 +101,7 @@ const StyledP = styled.p`
   font-size: 0.875rem;
   line-height: 1.2rem;
   color: rgb(71, 71, 71);
+  margin: 14px 0;
 `;
 
 const Icon = styled(FaCircle)`

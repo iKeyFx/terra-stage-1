@@ -27,7 +27,7 @@ const StyledSectionTwo = styled.section`
 const StyledIcon = styled.div`
   background-color: rgb(244 245 247);
   width: 10%;
-  height: 20px;
+  /* height: 20px; */
   padding: 1rem;
   display: flex;
   justify-content: center;
@@ -39,6 +39,7 @@ export const StyledH2 = styled.h2`
   font-weight: 800;
   font-size: 3rem;
   line-height: 3rem;
+  margin: 39.84px 0;
 `;
 
 export const StyledSpan = styled.span`

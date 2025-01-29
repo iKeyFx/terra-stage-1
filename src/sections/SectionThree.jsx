@@ -33,6 +33,7 @@ const StyledP = styled.p`
   text-align: center;
   font-size: 0.875rem;
   line-height: 1.25rem;
+  margin: 14px 0;
 
   @media (max-width: 1020px) {
     width: 100%;

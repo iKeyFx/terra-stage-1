@@ -69,6 +69,7 @@ const StyledCUl = styled.ul`
 const StyledConnectWithUs = styled.div`
   h3 {
     font-weight: 600;
+    margin: 18px 0;
   }
 
   ul {

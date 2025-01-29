@@ -23,6 +23,7 @@ const StyledStay = styled.div`
 const StyledH2 = styled.h2`
   font-size: 3rem;
   line-height: 1;
+  margin: 40px 0;
 `;
 const StyledForm = styled.form`
   position: relative;
@@ -31,7 +32,7 @@ const StyledForm = styled.form`
   padding: 0.5rem;
   display: flex;
   align-items: center;
-
+  margin-top: 2rem;
   @media (max-width: 1020px) {
     width: 98%;
     margin-bottom: 4rem;
