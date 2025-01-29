@@ -27,12 +27,11 @@ const StyledSectionTwo = styled.section`
 const StyledIcon = styled.div`
   background-color: rgb(244 245 247);
   width: 10%;
-  /* height: 30px; */
+  height: 20px;
   padding: 1rem;
   display: flex;
   justify-content: center;
   border-radius: 1rem;
-  z-index: 2;
 `;
 
 export const StyledH2 = styled.h2`
@@ -118,9 +117,9 @@ function SectionTwo() {
       </div>
       <GridMobile>
         <BenefitCard>
-          {/* <StyledIcon> */}
-          <AiOutlineSafetyCertificate />
-          {/* </StyledIcon> */}
+          <StyledIcon>
+            <AiOutlineSafetyCertificate />
+          </StyledIcon>
           <StyledH4>Earn a certificate</StyledH4>
           <StyledP>
             All Terra Learning finalists will be awarded a paid certificate of
