@@ -29,7 +29,6 @@ const variations = {
     background-color: var(--color--green);
 
     &:hover {
-      /* opacity: 0.5; */
       background-color: rgb(188, 222, 186);
       color: var(--color--green);
       transition: all 0.15s linear;

@@ -106,6 +106,12 @@ const MobileSignUp = styled(Button)`
     display: grid;
     padding: 1rem;
   }
+
+  &:hover {
+    background-color: rgb(188, 222, 186);
+    color: var(--color--green);
+    transition: all 0.15s linear;
+  }
 `;
 function SectionTwo() {
   return (
