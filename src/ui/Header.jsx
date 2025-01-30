@@ -60,9 +60,8 @@ const StyledNavLinkMobile = styled.ul`
     cursor: pointer;
     font-size: 16px;
     flex-direction: column;
-    padding-left: 4rem;
     font-size: 12px;
-    padding-top: 2rem;
+    padding-top: 4rem;
   }
 `;
 
@@ -76,6 +75,18 @@ const IconClose = styled(IoCloseSharp)`
   width: 100%;
   height: 30px;
   color: var(--color--green);
+`;
+
+const NewBtn = styled.button`
+  font-size: 0.875rem;
+  padding: 0.625rem 2rem;
+  text-align: center;
+  color: var(--color--white);
+  background-color: var(--color--green);
+
+  &:hover {
+    background-color: var(--color--green);
+  }
 `;
 function Header() {
   const [openMenu, setOpenMenu] = useState(false);
@@ -106,7 +117,10 @@ function Header() {
             <li>
               <a>Blog</a>
             </li>
-            <Button>Dashboard</Button>
+            <li>
+              <NewBtn>Dashboard</NewBtn>
+            </li>
+            {/* <Button>Dashboard</Button> */}
           </StyledNavLinkMobile>
         </MenuOverLay>
 

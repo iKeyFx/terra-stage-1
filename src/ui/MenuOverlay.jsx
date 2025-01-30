@@ -1,10 +1,11 @@
+import { useEffect } from "react";
 import styled from "styled-components";
 
 const OverlayContainer = styled.div`
   position: fixed;
   top: 0;
   left: 0;
-  height: 100vh;
+  height: 100dvh;
   width: 100%;
   background-color: var(--color--bg);
   z-index: -1;
@@ -33,6 +34,18 @@ const StyledSidebar = styled.aside`
 `;
 
 function MenuOverLay({ isVisible, children }) {
+  useEffect(() => {
+    if (isVisible) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
+
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [isVisible]);
+
   return (
     <OverlayContainer className={isVisible ? "visible" : ""}>
       <StyledSidebar>{children}</StyledSidebar>

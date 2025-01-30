@@ -77,6 +77,10 @@ const StyledAside = styled.aside`
   @media (max-width: 1020px) {
     padding: 2rem 2rem;
   }
+
+  @media (max-width: 740px) {
+    padding: 4rem 2rem;
+  }
 `;
 function Footer() {
   return (
