@@ -16,6 +16,7 @@ const StyledSection = styled.section`
   @media (max-width: 740px) {
     grid-template-columns: 1fr;
     padding: 2rem 1rem 0rem;
+    place-items: center;
   }
 `;
 

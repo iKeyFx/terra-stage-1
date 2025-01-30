@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const ProductCard = styled.div`
   position: relative;
-  max-width: fit-content;
+  max-width: 100dvh;
   border-radius: 1.5rem;
   border: 1px solid rgb(194, 193, 193);
 `;
