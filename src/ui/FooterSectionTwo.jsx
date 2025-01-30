@@ -103,6 +103,10 @@ const StyledGrid2 = styled.section`
   @media (max-width: 1020px) {
     padding-left: 3rem;
   }
+
+  @media (max-width: 740px) {
+    padding-left: 0rem;
+  }
 `;
 
 const StyledGrid2H3 = styled.h3`
